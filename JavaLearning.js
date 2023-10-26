@@ -47,3 +47,10 @@ nestedArray.pop(); /// drops ['Curry', 30]
 nestedArray.shift(); /// drops ["Stockton", 12]
 nestedArray.unshift(["Stockton", 12]); /// adds ["Stockton", 12] to beginning
 
+function basicGreeting(){
+  console.log("Hello my name is " + myfullname + ". My wife's name is " + wifeFullName + ".");
+}
+
+function basicGreetingWParam(firstName, lastName){
+  console.log("Hello, my first name is " + firstName + ", and my last name is " + lastName + ".");
+}
